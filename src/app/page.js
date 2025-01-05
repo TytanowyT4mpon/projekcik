@@ -32,6 +32,18 @@ export default function Home() {
             </div>
         </div>
       </nav>
+
+      <div className="hero">
+        <h1>A COMMUNITY <br/> FOR GAMERS BY<br/> GAMER</h1>
+        <p>Bądź na bieżąco ze Światem gier,<br/> oznaczaj i planuj kolejne rozgrywki</p>
+
+        <div>
+          <button type="button" className="join">Dołącz do nas</button>
+          <button type="button" className="login">Zaloguj się</button>
+        </div>
+      </div>
+
+    
     </div>
   );
 }
