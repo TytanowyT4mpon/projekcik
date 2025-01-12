@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
 .navigation{
   display: flex;
   justify-content: space-around;
@@ -79,7 +82,11 @@ font-size: 19px;
 }
 
 .section3 {
-
+  background: linear-gradient(180deg,#000,#1c111f 64%);
+  background-color: rgba(0, 0, 0, 0);
+  background-color: #9c1efe;
+  
+  
 }
 
 .section3 h1{
@@ -90,15 +97,22 @@ font-size: 19px;
   
 }
 
+.section4{
+  height: 100vh;
+  background: #1c111f;
+  background: linear-gradient(180deg,#1c111f,#221325 90%);
+}
+
 .container{
-display: flex;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
 justify-content: center;
 align-items: center;
 gap: 30px;
-max-width: 90%;
+max-width: 70%;
 margin-left: auto;
 margin-right: auto;
-flex-wrap: wrap;
+justify-items: center;
 }
 
 .box {
@@ -246,4 +260,24 @@ font-size: 15px;
   font-size: 15px;
   font-weight: bolder;
   
+}
+
+.section5{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  background: linear-gradient(0deg,#000,#150e17e6 10%,rgba(35,19,26,.5) 70%,rgba(44,28,48,0) 80%),linear-gradient(180deg,#221325,rgba(34,19,37,.9) 10%,rgba(34,19,37,.5) 20%,rgba(34,19,37,0)),url(/bg5.png) no-repeat 50%/cover;
+
+}
+
+.section5 > h2{
+  font-size: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 15px;
 }

@@ -149,6 +149,17 @@ export default function Home() {
           </div>
          
       </div>
+      <div className="section4">
+
+      <h2>NASZE <br/> PORADNIKI</h2>
+
+      </div>
+
+
+      <div className="section5">
+        <h2>DOŁĄCZ DO <br/> SPOŁECZNOŚCI</h2>
+        <button type="button" className="join">Utwórz konto</button>
+      </div>
 
     </div>
 
