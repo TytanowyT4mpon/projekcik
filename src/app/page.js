@@ -44,6 +44,77 @@ export default function Home() {
       </div>
 
     
+      <div className="section2">
+          <h1>NIE CZEKAJ <br/>ZBUDUJ LISTĘ <br/>JUŻ DZIŚ</h1>
+          <button type="button" className="join">Utwórz konto</button>
+      </div>
+
+      <div className="section3">
+          <h1>TO MUSISZ OGRAĆ</h1>
+
+          <div className="container">
+              <div className="first box">
+                <div className="people">
+                  <p>2137 osób</p>
+                          <div><svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="5.5" cy="5.5" r="5.5" fill="#00FF85"/>
+                          </svg>
+                          </div>
+                </div>
+              </div>
+              <div className="two box">
+              <div className="people">
+                  <p>12 osób</p>
+                          <div><svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="5.5" cy="5.5" r="5.5" fill="#00FF85"/>
+                          </svg>
+                          </div>
+                </div>
+              </div>
+              <div className="three box">
+              <div className="people">
+                  <p>0 osób</p>
+                          <div><svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="5.5" cy="5.5" r="5.5" fill="#00FF85"/>
+                          </svg>
+                          </div>
+                </div>
+              </div>
+              <div className="four box">
+              <div className="people">
+                  <p>420 osób</p>
+                          <div><svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="5.5" cy="5.5" r="5.5" fill="#00FF85"/>
+                          </svg>
+                          </div>
+                </div>
+              </div>
+              <div className="five box">
+              <div className="people">
+                  <p>1 osoba</p>
+                          <div><svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="5.5" cy="5.5" r="5.5" fill="#00FF85"/>
+                          </svg>
+                          </div>
+                </div>
+              </div>
+              <div className="six box">
+              <div className="people">
+                  <p>2 osoby</p>
+                          <div><svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="5.5" cy="5.5" r="5.5" fill="#00FF85"/>
+                          </svg>
+                          </div>
+                </div>
+              </div>
+          </div>
+         
+      </div>
+
     </div>
+
+
+
+
   );
 }
