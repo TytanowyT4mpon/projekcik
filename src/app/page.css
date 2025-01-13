@@ -281,3 +281,21 @@ font-size: 15px;
   text-align: center;
   padding-top: 15px;
 }
+
+.section4{
+  height: 100vh;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  z-index: 2;
+  
+}
+
+.section4 img{
+  width: 719px;
+  height: 413px;
+}

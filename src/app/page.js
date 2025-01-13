@@ -150,8 +150,25 @@ export default function Home() {
          
       </div>
       <div className="section4">
+        <div className="por">
+          <h2>NASZE <br/> PORADNIKI</h2>
+        </div>
+        <div className="porimg">
+          <img src="poradnik.jfif"></img>
+        </div>
+        <div className="pbut">
+        <svg width="108" height="78" viewBox="0 0 108 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="108" height="78" rx="10" fill="url(#paint0_linear_302_17)"/>
+<path d="M64.3385 41.0039L46.0449 51.6184C44.4924 52.5183 42.5 51.4286 42.5 49.6145V28.3855C42.5 26.5743 44.4895 25.4818 46.0449 26.3845L64.3385 36.999C64.6917 37.2006 64.9852 37.492 65.1894 37.8437C65.3936 38.1954 65.5011 38.5948 65.5011 39.0015C65.5011 39.4081 65.3936 39.8075 65.1894 40.1592C64.9852 40.5109 64.6917 40.8023 64.3385 41.0039Z" fill="white"/>
+<defs>
+<linearGradient id="paint0_linear_302_17" x1="0" y1="0" x2="116" y2="78" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8F00FF"/>
+<stop offset="1" stop-color="#BA62FF"/>
+</linearGradient>
+</defs>
+</svg>
 
-      <h2>NASZE <br/> PORADNIKI</h2>
+        </div>
 
       </div>
 
